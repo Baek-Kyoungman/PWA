@@ -3,14 +3,14 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover, shrink-to-fit=no">
-    <meta name="description" content="Suha - Multipurpose Ecommerce Mobile HTML Template">
+    <meta name="description" content="한 문제씩 풀기">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="theme-color" content="#100DD1">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <!-- The above tags *must* come first in the head, any other head content must come *after* these tags-->
     <!-- Title-->
-    <title>Exte - 익스트</title>
+    <title>한 문제씩 풀기</title>
     <!-- Favicon-->
     <link rel="icon" href="img/icons/icon-72x72.png">
     <!-- Apple Touch Icon-->
@@ -33,65 +33,68 @@
     <!-- Header Area-->
     <div class="header-area" id="headerArea">
       <div class="container h-100 d-flex align-items-center justify-content-between">
-        <!-- Logo Wrapper-->
-        <div class="logo-wrapper">
-          <a href="home.html" class="header-text">
-            <!-- <svg xmlns="http://www.w3.org/2000/svg" width="56" height="35" viewBox="0 0 56 35">
-              <text id="Exte" transform="translate(0 26)" fill="#232ad9" font-size="25" font-family="Poppins-ExtraBold, Poppins" font-weight="800"><tspan x="0" y="0">Exte</tspan></text>
-            </svg> -->
-            Exte
-          </a>
-        </div>
+        <!-- Back Button-->
+        <div class="back-button"><a href="home.html"><i class="lni lni-arrow-left"></i></a></div>
       </div>
     </div>
-      <!-- Go Back Button-->
-      <div class="go-home-btn" id="goHomeBtn"><i class="lni lni-arrow-left"></i></div>
-    </div>
     <div class="page-content-wrapper">
-      <div class="container">
-        <!-- Settings Wrapper-->
-        <div class="settings-wrapper py-3">
-          <!-- Single Setting Card-->
-          <div class="card settings-card">
-            <div class="card-body">
-              <!-- Single Settings-->
-              <div class="single-settings d-flex align-items-center justify-content-between">
-                <div class="title"><i class="lni lni-night"></i><span>Night Mode</span></div>
-                <div class="data-content">
-                  <div class="toggle-button-cover">
-                    <div class="button r">
-                      <input class="checkbox" id="darkSwitch" type="checkbox">
-                      <div class="knobs"></div>
-                      <div class="layer"></div>
-                    </div>
+      <!-- Catagory Single Image-->
+      <div>
+        <!-- Hero Slides-->
+        <div class="hero-slides owl-carousel">
+          <!-- 이미지 슬라이드 1 -->
+          <div class="single-hero-slide" style="background-image: url('img/bg-img/1.jpeg')">
+            <div class="slide-content h-100 d-flex align-items-center">
+              <div class="container">
+                <h4 class="text-black mb-0" data-animation="fadeInUp" data-delay="100ms" data-wow-duration="1000ms">한 문제씩 풀기</h4>
+                <p class="text-black" data-animation="fadeInUp" data-delay="400ms" data-wow-duration="1000ms">한 문제씩, 과목별 풀기 기능</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Product Catagories-->
+      <div class="product-catagories-wrapper py-3">
+        <div class="container">
+          <div class="product-catagory-wrap">
+            <div class="row g-3">
+              <!-- Single Catagory Card-->
+              <div class="col-12">
+                <div class="card catagory-card exam-height">
+                  <div class="card-body">
+                    <form action="">
+                      <span>
+                        과목을 선택하여 주십시요.
+                      </span>
+                      <span>
+                        <select class="form-control">
+                          <option>1</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                        </select>
+                      </span>
+                    </form>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <!-- Single Setting Card-->
-          <div class="card settings-card">
-            <div class="card-body">
-              <!-- Single Settings-->
-              <div class="single-settings d-flex align-items-center justify-content-between">
-                <div class="title"><i class="lni lni-protection"></i><span>Privacy</span></div>
-                <div class="data-content"><a class="pl-4" href="privacy-policy.html"><i class="lni lni-chevron-right"></i></a></div>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
+      <!-- Top Products-->
     </div>
     <!-- Internet Connection Status-->
     <div class="internet-connection-status" id="internetStatus"></div>
-    <!-- 하단 네비게이션-->
+    <!-- Footer Nav-->
     <div class="footer-nav-area" id="footerNav">
       <div class="container h-100 px-0">
         <div class="suha-footer-nav h-100">
           <ul class="h-100 d-flex align-items-center justify-content-between pl-0">
-            <li><a href="home.html"><i class="lni lni-home"></i>Home</a></li>
+            <li class="active"><a href="home.html"><i class="lni lni-home"></i>Home</a></li>
             <li><a href="pages.html"><i class="lni lni-heart"></i>Pages</a></li>
-            <li class="active"><a href="settings.html"><i class="lni lni-cog"></i>Settings</a></li>
+            <li><a href="settings.html"><i class="lni lni-cog"></i>Settings</a></li>
           </ul>
         </div>
       </div>

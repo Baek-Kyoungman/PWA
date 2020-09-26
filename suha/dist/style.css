@@ -336,14 +336,18 @@ textarea:invalid {
 .card {
   border-color: transparent !important;
   border-radius: 0.75rem;
-  -webkit-box-shadow: 0 1px 1px 0px #d7def4;
-          box-shadow: 0 1px 1px 0px #d7def4; }
+  -webkit-box-shadow: 0px 2px 2px 2px #d7def4;
+          box-shadow: 0px 2px 2px 2px #d7def4; }
   .card .card-body {
     padding: 1rem; }
 
 .card-img-top {
   border-top-left-radius: calc(.75rem - 1px);
   border-top-right-radius: calc(.75rem - 1px); }
+
+.exam-height {
+  min-height: 390px;
+}
 
 .border,
 .border-left,
@@ -1283,8 +1287,8 @@ li.suha-dropdown-menu {
   border-radius: 0.75rem; }
   .catagory-card a {
     display: block;
-    padding-top: 0.25rem;
-    padding-bottom: 0.25rem; }
+    padding-top: 0.9rem;
+    padding-bottom: 0.9rem; }
   .catagory-card i {
     margin-bottom: 0.75rem;
     font-size: 1.75rem;
@@ -1294,8 +1298,10 @@ li.suha-dropdown-menu {
     -webkit-transition-duration: 500ms;
             transition-duration: 500ms;
     display: block;
-    font-size: 12px;
+    font-size: 15px;
     font-weight: 700;
+    padding-top: 10px;
+    padding-bottom: 10px;
     line-height: 1;
     color: #747794; }
   .catagory-card:hover span, .catagory-card:focus span {
@@ -3386,7 +3392,6 @@ li.suha-dropdown-menu {
   [data-theme="dark"] h1,
   [data-theme="dark"] h2,
   [data-theme="dark"] h3,
-  [data-theme="dark"] h4,
   [data-theme="dark"] h5,
   [data-theme="dark"] h6 {
     color: rgba(255, 255, 255, 0.9); }
