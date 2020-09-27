@@ -349,6 +349,22 @@ textarea:invalid {
   min-height: 390px;
 }
 
+.te-center{
+  text-align: center;
+}
+
+.te-right{
+  text-align: right;
+}
+
+.te-left{
+  text-align: left;
+}
+
+.form-check-label-2{
+  float: left;
+}
+
 .border,
 .border-left,
 .border-right,
